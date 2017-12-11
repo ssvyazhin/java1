@@ -1,7 +1,7 @@
 /**
 * @author Sergey Svyazhin
 * @version 08.12.2017
-* @link null
+* @link https://github.com/ssvyazhin/java1/tree/master/TickTackToe
 */
 
 import java.util.Scanner;
