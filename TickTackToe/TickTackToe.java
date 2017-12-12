@@ -1,6 +1,6 @@
 /**
 * @author Sergey Svyazhin
-* @version 08.12.2017
+* @version 12.12.2017
 * @link https://github.com/ssvyazhin/java1/tree/master/TickTackToe
 */
 
