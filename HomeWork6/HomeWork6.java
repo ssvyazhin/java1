@@ -1,7 +1,7 @@
 /**
 * @author Sergey Svyazhin
 * @version 12.12.2017
-* @link null
+* @link https://github.com/ssvyazhin/java1/tree/master/HomeWork6
 */
 
 class HomeWork6 {
@@ -29,15 +29,15 @@ abstract class Animal {
 	protected double JumpHeight;
 	
 	public void Run(double Distance) {
-		System.out.println((RunDistance > Distance) ? "Run: true" : "Run: false"); 
+		System.out.println((RunDistance >= Distance) ? "Run: true" : "Run: false"); 
 	}
 	
 	public void Swim(double Distance){
-		System.out.println((RunDistance > Distance) ? "Swim: true" : "Swim: false"); 
+		System.out.println((RunDistance >= Distance) ? "Swim: true" : "Swim: false"); 
 	}
 	
 	public void Jump(double Height){
-		System.out.println((JumpHeight > Height) ? "Jump: true" : "Jump: false"); 
+		System.out.println((JumpHeight >= Height) ? "Jump: true" : "Jump: false"); 
 	}
 
 }
